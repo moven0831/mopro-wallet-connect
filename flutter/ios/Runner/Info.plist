@@ -45,5 +45,43 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<!-- URL Schemes for deep linking -->
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.example.mopro_flutter_example</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>moprowallet</string>
+			</array>
+		</dict>
+	</array>
+	<!-- Query schemes for wallet detection -->
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>metamask</string>
+		<string>trust</string>
+		<string>safe</string>
+		<string>rainbow</string>
+		<string>coinbase</string>
+		<string>ledgerlive</string>
+		<string>argent</string>
+		<string>imtoken</string>
+		<string>zerion</string>
+		<string>phantom</string>
+		<string>exodus</string>
+		<string>mathwallet</string>
+		<string>tokenpocket</string>
+		<string>safepal</string>
+		<string>bitkeep</string>
+		<string>unstoppable</string>
+		<string>omni</string>
+		<string>dcentwallet</string>
+		<string>wc</string>
+		<string>walletconnect</string>
+	</array>
 </dict>
 </plist>
